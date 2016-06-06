@@ -1,0 +1,25 @@
+.social {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+
+    li {
+        display: inline-block;
+        a{
+            margin: 5px;
+            font-size: 20px;
+            line-height: 30px;
+            .square(30px);
+            border-radius: 36px;
+            background-color: @gray-light;
+            color: @gray-lightest;
+            margin: 0 3px 3px 0;
+
+            &:hover{
+                text-decoration: none;
+                background-color: @link-hover-color;
+            }
+        }
+    }
+}
